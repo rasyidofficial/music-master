@@ -1,0 +1,30 @@
+{
+  "name": "music-master",
+  "version": "1.0.0",
+  "description": "Build Music Search Engine Using Api Spotify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "npm run build && live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasyidofficial/music-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasyidofficial/music-master/issues"
+  },
+  "homepage": "https://github.com/rasyidofficial/music-master#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
